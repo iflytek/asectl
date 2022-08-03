@@ -7,15 +7,15 @@ import (
 
 var addConfigExample = ``
 
-func NewCmdAdd() *cobra.Command {
+func NewCmdPush() *cobra.Command {
 	cmd := &cobra.Command{
-		Use:                   "add config",
+		Use:                   "push",
 		DisableFlagsInUseLine: true,
-		Short:                 "add config to ASE cluster",
-		Long:                  "add config to ASE cluster",
+		Short:                 "push config to ASE cluster",
+		Long:                  "push config to ASE cluster",
 		Example:               addConfigExample,
 		Run: func(cmd *cobra.Command, args []string) {
-			fmt.Println("add config to ASE cluster")
+			fmt.Println("push config to ASE cluster")
 		},
 	}
 	return cmd

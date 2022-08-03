@@ -20,9 +20,10 @@ func Version() {
 }
 
 var (
-	versionExample = `# Print the client and server versions for the current context
+	versionExample = `
+	# Print the client and server versions for the current context
 	asectl version
-`
+	`
 )
 
 func NewCmdVersion() *cobra.Command {

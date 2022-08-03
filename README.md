@@ -4,7 +4,7 @@ A cli tool for users to develop and deploy the service quickly under the ASE fra
 ### Prerequisites
 - golang 1.15+
 
-### How to build binary?
+### How to build?
 ```
 $ git clone https://github.com/xfyun/asectl.git
 $ cd asectl
